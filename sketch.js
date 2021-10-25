@@ -56,7 +56,7 @@ function preload()
 }
 
 function setup() {
-  isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+  /*isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
   if (isMobile){
     canW = displayWidth;
     canH = displayHeight;
@@ -65,8 +65,8 @@ function setup() {
     canW = windowWidth;
     canH = windowHeight;
     createCanvas(windowWidth, windowHeight)
-  }
-  //createCanvas(displayWidth,displayHeight);
+  }*/
+  createCanvas(displayWidth,displayHeight);
  
   frameRate(80);
 
